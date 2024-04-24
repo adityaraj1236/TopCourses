@@ -1,0 +1,19 @@
+
+.dots {
+    width: 33.6px;
+    height: 30.9px;
+    --c: radial-gradient(farthest-side,#474bff 90%,#0000);
+    background: var(--c) 50%  0,
+         var(--c) 0    100%,
+         var(--c) 100% 100%;
+    background-size: 13.4px 13.4px;
+    background-repeat: no-repeat;
+    position: relative;
+    animation: dots-p4ro8i 1s infinite;
+ }
+ 
+ @keyframes dots-p4ro8i {
+    50%, 100% {
+       background-position: 100% 100%,50% 0,0 100%;
+    }
+ }
